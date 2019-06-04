@@ -19,9 +19,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toSecond" {
             
-            let SecondViewController: SecondViewController = segue.destination as! SecondViewController
+            let secondViewController: SecondViewController = segue.destination as! SecondViewController
             
-            SecondViewController.getText = textField.text
+            secondViewController.getText = textField.text
             
         }
         
